@@ -1,0 +1,58 @@
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" media="screen" >
+  <link rel='stylesheet' href='/stylesheets/create.css' />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="js/jquery.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.js"></script>
+  <link href="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote.css" rel="stylesheet">
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote.js"></script>
+  <title>Create</title>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <ul style="word-spacing:30px; text-decoration:none; color:black;">
+        <b><a href="/">Home</a></b>
+        <b><a href="/archives">Archives</a></b>
+        <b><a href="/create">New-Post</a></b>
+        <b><a href="/contact">Contact</a></b>
+        <b><a href="/sign-in">Sign-in</a></b>
+      </ul>
+    </div>
+  </nav>
+  <div class="row1">
+      <h1>Edit Posts</h1>
+  </div>
+  <br><br>
+  <!-- <a href="/archives">Home</a> -->
+
+  <div class="container">
+
+    <form action="/create" method="post" class="form">
+      <input type="text" name="title" value="" placeholder="Title" class="form-control">
+      <input type="text" name="author" value="" placeholder="Author" class="form-control">
+      <input type="text" name="time" value="" placeholder="date/time" class="form-control">
+
+      <input type="text" name="image" value="" placeholder="image" class="form-control">
+
+
+      <textarea id="summernote" name="content"></textarea>
+      <script>
+      $(document).ready(function() {
+        $('#summernote').summernote({
+          height: 150
+        });
+      });
+      </script>
+
+      <button type="submit" class="btn btn-primary">add new blog</button>
+
+    </form>
+
+  </div>
+
+</body>
+</html>

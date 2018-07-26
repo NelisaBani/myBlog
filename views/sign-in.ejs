@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/sign-in.css' />
+    <!--BOOTSTRAP CSS  -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!--BOOTSTRAP CSS  -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote.css" rel="stylesheet">
+<script src="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote.js"></script>
+
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <ul style="word-spacing:30px; text-decoration:none; color:black;">
+          <b><a href="/">Home</a></b>
+          <b><a href="/archives">Archives</a></b>
+          <b><a href="/create">New-Post</a></b>
+          <b><a href="/contact">Contact</a></b>
+          <b><a href="/sign-in">Sign-in</a></b>
+        </ul>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row1">
+        <h1>How About You Sign In?</h1>
+      </div>
+      <br><br>
+      <div class="row2">
+
+        <form class="" action="db.json" method="post">
+          <h1>Sign-in...</h1>
+          <br><br>
+          Name:<input type="text" name="Name" placeholder="Your Name"><br><br>
+          Last Name:<input type="text" name="Last Name" placeholder="Your Last Name"><br><br>
+          Email:<input type="text" name="email" placeholder="Your Email Address"><br><br>
+          Password:<input type="password" name="Password" placeholder="Your Password"><br><br>
+          <button type="submit" name="button" action="/">Sign-in</button>
+        </form>
+
+        <!-- <div id="summernote"><p>Hello Summernote</p></div>
+          <script>
+            $(document).ready(function() {
+              $('#summernote').summernote();
+            });
+          </script>
+        </div> -->
+      </div>
+
+    </div>
+
+
+
+
+  </body>
+</html>

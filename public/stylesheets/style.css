@@ -1,0 +1,36 @@
+body {
+  padding: 50px;
+  font: 14px "sans-serif", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.panel{
+  background-color: pink !important;
+  border: 1px solid grey;
+}
+
+.navbar{
+  background-color: pink;
+  color:white;
+  padding: 20px;
+}
+
+.row1{
+  padding: 200px;
+  background-image: url(../images/pexels-photo-457702.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  font-family:Baskerville Old Face;
+  text-align:right;
+}
+
+h1{
+  /* font-size: 36px; */
+  text-align: left;
+  margin-left:0px;
+  margin-top: -27px;
+}

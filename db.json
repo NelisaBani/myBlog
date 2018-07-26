@@ -1,0 +1,60 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Make-up",
+      "author": "Nelisa Bani",
+      "time": "Jun 26",
+      "content": "Before applying makeup, first rub a primer into your skin to help your makeup last longer. Then, use a makeup brush or sponge to apply a layer of foundation, which will create an even base for the rest of your makeup. Next, use a concealer to cover up any blemishes or dark spots, and apply blush to the apples of your cheeks to give yourself some color. From there, apply eyeshadow, eyeliner, and mascara to help your eyes pop. Finally, finish your look with your favorite lipstick or lip gloss! To learn more makeup tips, read on!",
+      "image": "https://images.pexels.com/photos/457704/pexels-photo-457704.jpeg?auto=compress&cs=tinysrgb&h=350"
+    },
+    {
+      "id": 2,
+      "title": "Make-up",
+      "author": "Nelisa",
+      "time": "Jun 26",
+      "content": "Before applying makeup, first rub a primer into your skin to help your makeup last longer. Then, use a makeup brush or sponge to apply a layer of foundation, which will create an even base for the rest of your makeup. Next, use a concealer to cover up any blemishes or dark spots, and apply blush to the apples of your cheeks to give yourself some color. From there, apply eyeshadow, eyeliner, and mascara to help your eyes pop. Finally, finish your look with your favorite lipstick or lip gloss! To learn more makeup tips, read on!p",
+      "image": "https://images.pexels.com/photos/3119/fashion-girl-makeup-paint.jpg?auto=compress&cs=tinysrgb&h=350"
+    },
+    {
+      "id": 3,
+      "title": "Make-Up",
+      "author": "Nelisa",
+      "time": "Jun 26",
+      "content": "Before applying makeup, first rub a primer into your skin to help your makeup last longer. Then, use a makeup brush or sponge to apply a layer of foundation, which will create an even base for the rest of your makeup. Next, use a concealer to cover up any blemishes or dark spots, and apply blush to the apples of your cheeks to give yourself some color. From there, apply eyeshadow, eyeliner, and mascara to help your eyes pop. Finally, finish your look with your favorite lipstick or lip gloss! To learn more makeup tips, read on!",
+      "image": "https://images.pexels.com/photos/912992/pexels-photo-912992.jpeg?auto=compress&cs=tinysrgb&h=350"
+    },
+    {
+      "id": 4,
+      "title": "Make-up",
+      "author": "Nelisa Bani",
+      "time": "Jun 26",
+      "content": "Before applying makeup, first rub a primer into your skin to help your makeup last longer. Then, use a makeup brush or sponge to apply a layer of foundation, which will create an even base for the rest of your makeup. Next, use a concealer to cover up any blemishes or dark spots, and apply blush to the apples of your cheeks to give yourself some color. From there, apply eyeshadow, eyeliner, and mascara to help your eyes pop. Finally, finish your look with your favorite lipstick or lip gloss! To learn more makeup tips, read on!",
+      "image": "https://images.pexels.com/photos/457704/pexels-photo-457704.jpeg?auto=compress&cs=tinysrgb&h=350"
+    },
+    {
+      "id": 5,
+      "title": "Make-up",
+      "author": "Nelisa",
+      "time": "Jun 26",
+      "content": "Before applying makeup, first rub a primer into your skin to help your makeup last longer. Then, use a makeup brush or sponge to apply a layer of foundation, which will create an even base for the rest of your makeup. Next, use a concealer to cover up any blemishes or dark spots, and apply blush to the apples of your cheeks to give yourself some color. From there, apply eyeshadow, eyeliner, and mascara to help your eyes pop. Finally, finish your look with your favorite lipstick or lip gloss! To learn more makeup tips, read on!p",
+      "image": "https://images.pexels.com/photos/3119/fashion-girl-makeup-paint.jpg?auto=compress&cs=tinysrgb&h=350"
+    },
+    {
+      "id": 6,
+      "title": "Make-Up",
+      "author": "Nelisa",
+      "time": "Jun 26",
+      "content": "Before applying makeup, first rub a primer into your skin to help your makeup last longer. Then, use a makeup brush or sponge to apply a layer of foundation, which will create an even base for the rest of your makeup. Next, use a concealer to cover up any blemishes or dark spots, and apply blush to the apples of your cheeks to give yourself some color. From there, apply eyeshadow, eyeliner, and mascara to help your eyes pop. Finally, finish your look with your favorite lipstick or lip gloss! To learn more makeup tips, read on!",
+      "image": "https://images.pexels.com/photos/912992/pexels-photo-912992.jpeg?auto=compress&cs=tinysrgb&h=350"
+    },
+    {
+      "title": "dasda",
+      "author": "dsadaed",
+      "time": "saasdsadad",
+      "content": "Before applying makeup, first rub a primer into your skin to help your makeup last longer. Then, use a makeup brush or sponge to apply a layer of foundation, which will create an even base for the rest of your makeup. Next, use a concealer to cover up any blemishes or dark spots, and apply blush to the apples of your cheeks to give yourself some color. From there, apply eyeshadow, eyeliner, and mascara to help your eyes pop. Finally, finish your look with your favorite lipstick or lip gloss! To learn more makeup tips, read on!",
+      "image": "https://images.pexels.com/photos/3119/fashion-girl-makeup-paint.jpg?auto=compress&cs=tinysrgb&h=350",
+      "id": 7
+    }
+  ]
+}

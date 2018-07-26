@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <!--BOOTSTRAP CSS  -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <ul style="word-spacing:30px; text-decoration:none; color:black;">
+          <b><a href="/">Home</a></b>
+          <b><a href="/archives">Archives</a></b>
+            <b><a href="/create">New-Post</a></b>
+          <b><a href="/contact">Contact</a></b>
+          <b><a href="/sign-in">Sign-in</a></b>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row1">
+        <center><h1>Let's Talk Make-up</h1></center>
+      </div>
+      <br><br>
+
+      <div class="row">
+
+        <% if (posts) {  %>
+
+
+
+          <div class="col-xs-12 col-md-6 col-lg-4">
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                <h3 class="panel-title"><%= posts[posts.length-1].title %></h3>
+              </div>
+
+              <div class="panel-body">
+
+                <%- posts[posts.length-1].content %> <a href="<%=posts[posts.length-1].link %>" >read more</a>
+                <img src="<%- posts[posts.length-1].image %>" height="200px" width="300px">
+                <div class="panel-footer">Author: <%= posts[posts.length-1].author %></div>
+                <%= posts[posts.length-1].time %>
+
+              </div>
+
+
+            </div>
+          </div>
+
+
+
+          <div class="col-xs-12 col-md-6 col-lg-4">
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                <h3 class="panel-title"><%= posts[posts.length-2].title %></h3>
+              </div>
+
+              <div class="panel-body">
+
+                <%- posts[posts.length-2].content %> <a href="<%=posts[posts.length-2].link %>" >read more</a>
+                <img src="<%- posts[posts.length-2].image %>" height="200px" width="300px">
+                <div class="panel-footer">Author: <%= posts[posts.length-2].author %></div>
+                <%= posts[posts.length-2].time %>
+
+              </div>
+
+
+            </div>
+          </div>
+
+
+          <div class="col-xs-12 col-md-6 col-lg-4">
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                <h3 class="panel-title"><%= posts[posts.length-3].title %></h3>
+              </div>
+
+              <div class="panel-body">
+
+                <%- posts[posts.length-3].content %> <a href="<%=posts[posts.length-3].link %>" >read more</a>
+                <img src="<%- posts[posts.length-3].image %>" height="200px" width="300px">
+                <div class="panel-footer">Author: <%= posts[posts.length-3].author %></div>
+                <%= posts[posts.length-3].time %>
+
+              </div>
+
+
+            </div>
+          </div>
+
+        <% } else { %>
+      <p>You Have No blog posts</p>
+    <% } %>
+</div>
+
+
+
+
+  </div>
+  </body>
+</html>

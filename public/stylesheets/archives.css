@@ -1,0 +1,46 @@
+body {
+  padding: 50px;
+  font: 14px "sans-serif", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.panel{
+  background-color: pink !important;
+  border: 1px solid grey;
+}
+
+.navbar{
+  background-color: pink;
+  color:white;
+  padding: 20px;
+}
+
+.row1{
+  padding: 200px;
+  background-image: url(../images/make-up.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #6B6969;
+  font-family:Baskerville Old Face;
+  text-align:right;
+}
+
+h1{
+  /* font-size: 36px; */
+  text-align: center;
+  margin-left: 10px;
+  margin-top: -27px;
+  font-family: fantasy;
+  color: pink;
+}
+
+button{
+  background-color: grey;
+}
+
+.panel-primary>.panel-heading{
+  background-color: grey;
+}
