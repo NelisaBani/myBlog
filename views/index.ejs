@@ -7,17 +7,18 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
   </head>
-  <body>
+  <body class="fluid">
     <nav class="navbar">
-      <div class="container">
+      <!-- <div class="container"> -->
         <ul style="word-spacing:30px; text-decoration:none; color:black;">
-          <b><a href="/">Home</a></b>
-          <b><a href="/archives">Archives</a></b>
-            <b><a href="/create">New-Post</a></b>
-          <b><a href="/contact">Contact</a></b>
-          <b><a href="/sign-in">Sign-in</a></b>
+          <b><a href="/" style="color:white;">Home</a></b>
+          <b><a href="/archives"style="color:white;">Archives</a></b>
+          <b><a href="/create"style="color:white;">New-Post</a></b>
+          <b><a href="/contact"style="color:white;">Contact</a></b>
+          <b><a href="/login"style="color:white;">login</a></b>
+          <b><a href="/sign_up"style="color:white;">Sign Up</a></b>
         </ul>
-      </div>
+      <!-- </div> -->
     </nav>
 
     <div class="container">
@@ -40,9 +41,9 @@
 
               <div class="panel-body">
 
-                <%- posts[posts.length-1].content %> <a href="<%=posts[posts.length-1].link %>" >read more</a>
+                <!-- <%- posts[posts.length-1].content %> <a href="<%=posts[posts.length-1].link %>" >read more</a> -->
                 <img src="<%- posts[posts.length-1].image %>" height="200px" width="300px">
-                <div class="panel-footer">Author: <%= posts[posts.length-1].author %></div>
+                <!-- <div class="panel-footer">Author: <%= posts[posts.length-1].author %></div> -->
                 <%= posts[posts.length-1].time %>
 
               </div>
@@ -61,9 +62,9 @@
 
               <div class="panel-body">
 
-                <%- posts[posts.length-2].content %> <a href="<%=posts[posts.length-2].link %>" >read more</a>
+                <!-- <%- posts[posts.length-2].content %> <a href="<%=posts[posts.length-2].link %>" >read more</a> -->
                 <img src="<%- posts[posts.length-2].image %>" height="200px" width="300px">
-                <div class="panel-footer">Author: <%= posts[posts.length-2].author %></div>
+                <!-- <div class="panel-footer">Author: <%= posts[posts.length-2].author %></div> -->
                 <%= posts[posts.length-2].time %>
 
               </div>
@@ -81,9 +82,9 @@
 
               <div class="panel-body">
 
-                <%- posts[posts.length-3].content %> <a href="<%=posts[posts.length-3].link %>" >read more</a>
+                <!-- <%- posts[posts.length-3].content %> <a href="<%=posts[posts.length-3].link %>" >read more</a> -->
                 <img src="<%- posts[posts.length-3].image %>" height="200px" width="300px">
-                <div class="panel-footer">Author: <%= posts[posts.length-3].author %></div>
+                <!-- <div class="panel-footer">Author: <%= posts[posts.length-3].author %></div> -->
                 <%= posts[posts.length-3].time %>
 
               </div>
@@ -95,6 +96,10 @@
         <% } else { %>
       <p>You Have No blog posts</p>
     <% } %>
+
+</div>
+<div class="row3">
+  <footer>copyright|2018 Nelisa Bani</footer>
 </div>
 
 

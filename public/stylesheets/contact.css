@@ -3,24 +3,25 @@ body {
   font: 14px "sans-serif", Helvetica, Arial, sans-serif;
   background-image: url(../images/make-up.jpeg);
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .navbar{
-  background-color: pink;
+  background-color: hotpink;
   color:white;
   padding: 20px;
 }
 
-/* .row1{ */
-  /* padding: 500px; */
-  /* padding-left: 30px;
+.row1{
+
+  padding-left: 30px;
 
   background-size: cover;
   background-repeat: no-repeat;
   color: grey;
   font-family:Baskerville Old Face;
   text-align:right;
-} */
+}
 
 h1{
   color:#D1689D;

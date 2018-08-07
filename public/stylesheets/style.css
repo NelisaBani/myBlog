@@ -1,5 +1,5 @@
 body {
-  padding: 50px;
+  padding: 0px;
   font: 14px "sans-serif", Helvetica, Arial, sans-serif;
 }
 
@@ -9,11 +9,11 @@ a {
 
 .panel{
   background-color: pink !important;
-  border: 1px solid grey;
+  border: 1px solid grey !important;
 }
 
 .navbar{
-  background-color: pink;
+  background-color: hotpink;
   color:white;
   padding: 20px;
 }
@@ -23,9 +23,12 @@ a {
   background-image: url(../images/pexels-photo-457702.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
-  color: white;
+  color:#AB59B2;
   font-family:Baskerville Old Face;
   text-align:right;
+  margin: -20px;
+  margin-right: -104px;
+  margin-left: -104px;
 }
 
 h1{
@@ -33,4 +36,14 @@ h1{
   text-align: left;
   margin-left:0px;
   margin-top: -27px;
+}
+.panel-heading{
+  background-color: hotpink !important;
+
+}
+
+.row3{
+  background-color: hotpink;
+  color: white;
+  height: 80px;
 }
